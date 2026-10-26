@@ -1,0 +1,22 @@
+{
+  "args": {
+    "model": "MT_rd4ad",
+    "backbone": "wide_resnet50_2",
+    "epochs": 30,
+    "batch_size": 16,
+    "device": 0,
+    "dataset_path": "/home/mattia_scantamburlo/big_disk/VAD_distill/data/mvtec_anomaly_detection",
+    "out_dir": "results_clad_rd4ad",
+    "seed": 1,
+    "img_size": 224,
+    "eval_interval": 1000000000,
+    "mem_per_task": 10,
+    "replay_ratio": 0.5,
+    "distilled_dir": "/home/mattia_scantamburlo/big_disk/VAD_distill/outputs/distilled_rd4ad",
+    "distilled_template": "{cat}/10/real/full128/images_best.pt",
+    "memory_size": 100,
+    "max_cats": 0
+  },
+  "time_s": 1852.706256866455,
+  "peak_gpu_gb": 5.977195739746094
+}

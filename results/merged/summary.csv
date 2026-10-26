@@ -1,0 +1,11 @@
+category,detector,res,type,n,image_mean,image_std,pixel_mean,pixel_std
+bottle,RD4AD,128,distilled,5,0.9873,0.0042,0.9302,0.0026
+bottle,RD4AD,128,real,5,0.9890,0.0049,0.9614,0.0016
+bottle,RD4AD,64,distilled,5,0.9755,0.0052,0.9115,0.0063
+bottle,RD4AD,64,real,5,0.9805,0.0076,0.9361,0.0081
+bottle,STFPM,112,distilled,4,0.9681,0.0203,0.9151,0.0112
+bottle,STFPM,112,real,3,0.9788,0.0059,0.9696,0.0019
+bottle,STFPM,128,distilled,5,0.9348,0.0604,0.8754,0.0439
+bottle,STFPM,128,real,5,0.9726,0.0059,0.9678,0.0029
+bottle,STFPM,64,distilled,10,0.9788,0.0088,0.9330,0.0058
+bottle,STFPM,64,real,10,0.9795,0.0034,0.9543,0.0013

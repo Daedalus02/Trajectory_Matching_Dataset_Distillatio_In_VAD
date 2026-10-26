@@ -1,0 +1,18 @@
+{
+  "args": {
+    "model": "MT_stfpm",
+    "backbone": "resnet18",
+    "epochs": 20,
+    "batch_size": 8,
+    "device": 0,
+    "dataset_path": "/home/mattia_scantamburlo/big_disk/VAD_distill/data/mvtec_anomaly_detection",
+    "out_dir": "results_clad",
+    "seed": 2,
+    "mem_per_task": 10,
+    "replay_ratio": 0.5,
+    "distilled_dir": "/home/mattia_scantamburlo/big_disk/VAD_distill/outputs/distilled",
+    "memory_size": 100
+  },
+  "time_s": 3858.180333852768,
+  "peak_gpu_gb": 0.3249969482421875
+}

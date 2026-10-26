@@ -1,0 +1,8 @@
+# Joint (multi-task) final metrics for the continual table (tab:continual).
+# Source: last-epoch "img_roc_auc" / "pxl_roc_auc" printed in
+#   moviad-continual/run_MT_stfpm_s{0,1,2}.log  (the MT JSONs have no trainer.summary).
+# mean +/- std (ddof=1): image 0.706 +/- 0.035 ; pixel 0.916 +/- 0.008
+mode,seed,image_final,pixel_final
+MT,0,0.6681089875044433,0.907057440549554
+MT,1,0.7128619473382003,0.9167352469576134
+MT,2,0.7360142728242146,0.9232509730327312

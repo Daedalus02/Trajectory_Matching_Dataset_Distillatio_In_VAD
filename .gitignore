@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+distillation/data/
+distillation/outputs/
+distillation/wandb/
+continual/moviad/
+.venv/
+distilled_sets/

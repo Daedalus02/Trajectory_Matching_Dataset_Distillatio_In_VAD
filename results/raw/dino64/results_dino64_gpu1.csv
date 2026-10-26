@@ -1,0 +1,7 @@
+category,type,image_auroc_64info
+bottle,real,0.9905
+bottle,dist,0.9468
+carpet,real,0.9992
+carpet,dist,0.9924
+metal_nut,real,0.9340
+metal_nut,dist,0.5846

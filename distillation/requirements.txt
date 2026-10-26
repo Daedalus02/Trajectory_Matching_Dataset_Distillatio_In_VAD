@@ -1,0 +1,15 @@
+# Distillation / single-class / multi-class / patch experiments.
+# Versions of the environment used for the thesis (Python 3.10.12, CUDA 12.4).
+# Install torch/torchvision from pytorch.org for your CUDA, e.g.:
+#   pip install torch==2.6.0 torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0
+torchvision==0.21.0
+numpy==2.2.3
+scipy==1.15.2
+scikit-learn==1.6.1
+Pillow==11.1.0
+matplotlib==3.10.1
+tqdm==4.67.1
+PyYAML==6.0.2
+wandb==0.19.7        # distillation logging, always used with --offline
+kornia==0.8.2        # imported by lib/utils_baseline.py
